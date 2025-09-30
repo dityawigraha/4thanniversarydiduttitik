@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anniversary Celebration</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Animated heart particles background -->
+    <div class="heart-particles-bg"></div>
+
+    <div class="container">
+      <div class="header">
+        <div class="hearts-decoration">
+          <span>💕</span>
+          <span>💗</span>
+          <span>💕</span>
+        </div>
+        <!-- Polaroid photo replaces the heart emoji -->
+        <div class="polaroid-photo">
+          <img src="IMG_8072.jpg" alt="Anniversary Polaroid" />
+        </div>
+        <div class="accent-line"></div>
+        <h1>4th Anniversary</h1>
+        <p>Didut & Titik</p>
+        <div class="sparkles">
+          <span class="sparkle">✨</span>
+          <span class="sparkle">💖</span>
+          <span class="sparkle">✨</span>
+        </div>
+        <!-- Countdown Timer -->
+        <div class="countdown-box">
+          <div id="countdown">
+            <span id="days">0</span> hari
+            <span id="hours">0</span> jam
+            <span id="minutes">0</span> menit
+            <span id="seconds">0</span> detik
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <p class="message">
+          Setiap momen bersamamu adalah kenangan indah yang tak terlupakan. Mari
+          kita rayakan hari istimewa ini bersama.
+        </p>
+
+        <!-- Gallery Section styled like date-box/activity-section -->
+        <div class="-box">
+          <div class="gallery-carousel">
+            <button class="gallery-btn prev" aria-label="Sebelumnya">&#8592;</button>
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <div class="carousel-photo"><img src="d6fe38e06512507ea1fa1fb2eb5ec205.jpg" alt="Tahun 1" /><div class="caption"></div></div>
+                <div class="carousel-photo"><img src="IMG_0297.heic" alt="Tahun 2" /><div class="caption"></div></div>
+                <div class="carousel-photo"><img src="IMG_5833.heic" alt="Tahun 3" /><div class="caption"></div></div>
+                <div class="carousel-photo"><img src="IMG_6160.heic" alt="Tahun 4" /><div class="caption"></div></div>
+              </div>
+            </div>
+            <button class="gallery-btn next" aria-label="Selanjutnya">&#8594;</button>
+          </div>
+          <div class="gallery-indicators">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="date-box">
+          <h2>Detail Acara</h2>
+          <p>📅 Rabu, 1 Oktober 2025</p>
+          <p>📍 Living World Denpasar</p>
+          <p class="time">🕐 18:00 WITA</p>
+          <a
+            href="https://maps.app.goo.gl/VLijncR2onw9QRET7"
+            target="_blank"
+            class="button"
+          >
+            📍 Lihat Lokasi
+          </a>
+        </div>
+
+        <div class="activity-section">
+          <h2>Rundown Acara</h2>
+          <div class="activity-list">
+            <div class="activity-item">
+              <div class="activity-icon">🌸</div>
+              <div class="activity-text">
+                <div class="title">Flower Shopping</div>
+                <div class="desc">
+                  Spesifiknya bunga lily ya, because titik really want a lilyyy.
+                </div>
+              </div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-icon">⌚️</div>
+              <div class="activity-text">
+                <div class="title">New Watch</div>
+                <div class="desc">
+                  Karena jam titik rusak, jadi kita cari jam untuk titik duluuu~
+                </div>
+              </div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-icon">📸</div>
+              <div class="activity-text">
+                <div class="title">Photoism</div>
+                <div class="desc">
+                  Mengabadikan momen, karena untuk titik momen itu penting!
+                </div>
+              </div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-icon">🍽️</div>
+              <div class="activity-text">
+                <div class="title">Yakiniku Grill / Hotpot</div>
+                <div class="desc">Kita cari mam yang seru-seru yawww!</div>
+              </div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-icon">🎙️</div>
+              <div class="activity-text">
+                <div class="title">Deep Talk Session</div>
+                <div class="desc">
+                  Reflection is essential, especially after being together for
+                  four years yeaa~
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="message">
+          Walaupun sederhana, yang penting kita bahagia bersama. Terima kasih
+          sudah menjadi bagian dari hidupku. Aku mencintaimu, sekarang dan
+          selamanya.
+        </p>
+
+        <!-- Map Embed -->
+        <div class="map-section">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.054181216599!2d115.21765107501744!3d-8.67045809139332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd241b3e6d2e3b9%3A0x2b7c7c7c7c7c7c7c!2sLiving%20World%20Denpasar!5e0!3m2!1sid!2sid!4v1690000000000!5m2!1sid!2sid"
+            width="100%"
+            height="220"
+            style="border:0; border-radius:12px; margin-top:20px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Living World Denpasar"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="footer">Made with love by didut 💗</div>
+    </div>
+    <audio id="bg-music" src="mata_ke_hati.mp3" autoplay loop></audio>
+    <script>
+      // Heart particles animation
+      function createHeartParticle() {
+        const particle = document.createElement('span');
+        particle.className = 'heart-particle';
+        particle.innerText = '💗';
+        particle.style.left = Math.random() * 100 + 'vw';
+        particle.style.animationDuration = (2 + Math.random() * 3) + 's';
+        document.querySelector('.heart-particles-bg').appendChild(particle);
+        setTimeout(() => particle.remove(), 5000);
+      }
+      setInterval(createHeartParticle, 500);
+
+      // Countdown timer to 1 October 2025, 18:00 WITA (UTC+8)
+      function updateCountdown() {
+        const eventDate = new Date('2025-10-01T18:00:00+08:00');
+        const now = new Date();
+        const diff = eventDate - now;
+        if (diff <= 0) {
+          document.getElementById('countdown').innerHTML = "Selamat Anniversary!";
+          return;
+        }
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((diff / (1000 * 60)) % 60);
+        const seconds = Math.floor((diff / 1000) % 60);
+        document.getElementById('days').textContent = days;
+        document.getElementById('hours').textContent = hours;
+        document.getElementById('minutes').textContent = minutes;
+        document.getElementById('seconds').textContent = seconds;
+      }
+      setInterval(updateCountdown, 1000);
+      updateCountdown();
+
+      // Carousel Gallery logic with swipe support and auto swipe
+      const carouselPhotos = Array.from(document.querySelectorAll('.carousel-photo'));
+      const carouselDots = Array.from(document.querySelectorAll('.gallery-indicators .dot'));
+      const prevBtn = document.querySelector('.gallery-btn.prev');
+      const nextBtn = document.querySelector('.gallery-btn.next');
+      let carouselIndex = 0;
+      let autoSwipeInterval = null;
+
+      function updateCarousel(idx) {
+        carouselPhotos.forEach((el, i) => {
+          el.classList.remove('active', 'left', 'right', 'far-left', 'far-right');
+          if (i === idx) {
+            el.classList.add('active');
+          } else if (i === (idx - 1 + carouselPhotos.length) % carouselPhotos.length) {
+            el.classList.add('left');
+          } else if (i === (idx + 1) % carouselPhotos.length) {
+            el.classList.add('right');
+          } else if (i === (idx - 2 + carouselPhotos.length) % carouselPhotos.length) {
+            el.classList.add('far-left');
+          } else if (i === (idx + 2) % carouselPhotos.length) {
+            el.classList.add('far-right');
+          }
+        });
+        carouselDots.forEach((dot, i) => {
+          dot.classList.toggle('active', i === idx);
+        });
+        carouselIndex = idx;
+      }
+
+      function prevCarousel() {
+        updateCarousel((carouselIndex - 1 + carouselPhotos.length) % carouselPhotos.length);
+        resetAutoSwipe();
+      }
+      function nextCarousel() {
+        updateCarousel((carouselIndex + 1) % carouselPhotos.length);
+        resetAutoSwipe();
+      }
+
+      prevBtn.onclick = prevCarousel;
+      nextBtn.onclick = nextCarousel;
+      carouselDots.forEach((dot, i) => {
+        dot.onclick = () => {
+          updateCarousel(i);
+          resetAutoSwipe();
+        };
+      });
+
+      // Swipe support for carousel
+      let startX = null;
+      let isTouching = false;
+      const carouselViewport = document.querySelector('.carousel-viewport');
+
+      carouselViewport.addEventListener('touchstart', function(e) {
+        if (e.touches.length === 1) {
+          startX = e.touches[0].clientX;
+          isTouching = true;
+        }
+      });
+
+      carouselViewport.addEventListener('touchmove', function(e) {
+        if (!isTouching) return;
+        // Optional: add drag effect here
+      });
+
+      carouselViewport.addEventListener('touchend', function(e) {
+        if (!isTouching) return;
+        const endX = e.changedTouches[0].clientX;
+        const diff = endX - startX;
+        if (Math.abs(diff) > 40) {
+          if (diff < 0) {
+            nextCarousel();
+          } else {
+            prevCarousel();
+          }
+        }
+        isTouching = false;
+        startX = null;
+      });
+
+      // Mouse drag support for desktop
+      let mouseDown = false, mouseStartX = null;
+      carouselViewport.addEventListener('mousedown', function(e) {
+        mouseDown = true;
+        mouseStartX = e.clientX;
+      });
+      carouselViewport.addEventListener('mouseup', function(e) {
+        if (!mouseDown) return;
+        const diff = e.clientX - mouseStartX;
+        if (Math.abs(diff) > 40) {
+          if (diff < 0) {
+            nextCarousel();
+          } else {
+            prevCarousel();
+          }
+        }
+        mouseDown = false;
+        mouseStartX = null;
+      });
+
+      // Auto swipe every 4 seconds
+      function startAutoSwipe() {
+        if (autoSwipeInterval) clearInterval(autoSwipeInterval);
+        autoSwipeInterval = setInterval(() => {
+          updateCarousel((carouselIndex + 1) % carouselPhotos.length);
+        }, 4000);
+      }
+      function resetAutoSwipe() {
+        startAutoSwipe();
+      }
+
+      // Initialize carousel
+      updateCarousel(0);
+      startAutoSwipe();
+
+      // Music autoplay fix for mobile
+      document.addEventListener('DOMContentLoaded', function () {
+        const audio = document.getElementById('bg-music');
+        audio.volume = 0.5;
+        audio.play().catch(() => {});
+        const enableAudio = () => {
+          audio.muted = false;
+          audio.play();
+          document.removeEventListener('click', enableAudio);
+          document.removeEventListener('touchstart', enableAudio);
+        };
+        document.addEventListener('click', enableAudio);
+        document.addEventListener('touchstart', enableAudio);
+      });
+    </script>
+  </body>
+</html>
